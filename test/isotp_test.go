@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/linklayer/go-socketcan/pkg/socketcan"
+	"github.com/grid-x/go-socketcan/pkg/socketcan"
 )
 
 func openIsotpInterface(t *testing.T, rxID uint32, txID uint32) socketcan.Interface {
